@@ -6,26 +6,46 @@
     <title>Donation For Unbeavered</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <main>
-        <section>
-            <div class="navbar">
-                <div class="navbar-start">
-                    <button class="btn btn-warning"><a href="#html">Blog</a></button>
+        <section class="">
+        <!-- navbar  -->
+         <div class="bg-slate-200 h-28 flex">
+            <div class="navbar justify-around">
+                <div class="">
+                    <button class="btn btn-warning text-2xl  px-7"><a href="blog.html">Blog</a></button>
                 </div>
-                <div class="navbar-center">
+                <div class="gap-3">
                     <img src="assets/logo.png" alt="">
-                  <h3>Donate Bangladesh</h3>
+                  <h4 class="text-2xl">Donate Bangladesh</h4>
                 </div>
-                <div class="navbar-end">
+                <div class="gap-2">
                     <img src="assets/coin.png" alt="">
-                  <p>5500 BDT</p>
+                  <p class="text-2xl">5500 BDT</p>
                 </div>
               </div>
+         </div>
+         <!-- banner div -->
+         <div class="flex justify-center gap-4 mt-10">
+            <button  id="button1" onclick="toggleInfo('info1')" class="btn btn-warning">Warning</button>
+            <button  id="button2" onclick="toggleInfo('info2')" class="btn btn-warning">Warning</button>
+            <!-- <div id="info1" class="info">Information for Button 1</div>
+            <div id="info2" class="info" style="display:none;">vai eta thik korte hobe</div> -->
+        </div>    
         </section>
-        <section></section>
+        <!-- Donation section .....its part maybe 3 to 6 -->
+        <section>
+            <div id="info1">
+                vaiya kmn achen
+
+            </div>
+            <div id="info2" style="display:none;">
+                vai eta thik korte hobe
+            </div>
+        </section>
         <section></section>
     </main>
     <script src="create.js"></script>
