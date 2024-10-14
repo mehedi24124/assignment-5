@@ -29,24 +29,44 @@
               </div>
          </div>
          <!-- banner div -->
-         <div class="flex justify-center gap-4 mt-10">
-            <button  id="button1" onclick="toggleInfo('info1')" class="btn btn-warning">Warning</button>
-            <button  id="button2" onclick="toggleInfo('info2')" class="btn btn-warning">Warning</button>
-            <!-- <div id="info1" class="info">Information for Button 1</div>
-            <div id="info2" class="info" style="display:none;">vai eta thik korte hobe</div> -->
+         <div class="flex justify-center gap-12 mt-16">
+            <button  id="colorButton1" onclick="toggleInfo('info1')" class="btn btn-warning">Donation</button>
+            <button  id="colorButton2" onclick="toggleInfo('info2')" class="btn btn-warning">History</button>
         </div>    
         </section>
         <!-- Donation section .....its part maybe 3 to 6 -->
         <section>
+            <!-- this is for donation part -->
+            
             <div id="info1">
-                vaiya kmn achen
-
+                <div class="hero mt-20">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img 
+                    src="assets/noakhali.png"
+                    class="w-1/2 rounded-lg shadow-2xl" />
+                  <div>
+                    <div class="flex gap-2">
+                        <img src="assets/coin.png" alt="">
+                        <p>10400 BDT</p>
+                    </div>
+                    <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+                    <p class="py-6"> The recent floods in Noakhali have caused significant damage to homes  infrastructure. <br> Your donation will help provide essential supplies and  to those affected by this disaster.<br> Every contribution, big or small, makes  difference. Please join us in supporting <br> the relief efforts and making a positive impact on the lives of those in need.</p>
+                    <input  type="text" placeholder="Write Donation Amount" class="input input-bordered w-full" /> <br>
+                    <div class="flex justify-center"><button class="btn btn-warning mt-6">Donate Now</button></div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+
+            <!-- its for history part -->
+
+
             <div id="info2" style="display:none;">
-                vai eta thik korte hobe
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsum delectus? Eveniet quas inventore amet tempore pariatur hic aperiam beatae consectetur impedit sequi iusto modi perspiciatis autem nesciunt, quidem, quibusdam optio delectus sit laboriosam adipisci animi quo ut veniam obcaecati! Non quis magnam commodi minus rerum officiis dolores, quos qui.
             </div>
         </section>
-        <section></section>
+        <section> </section>
     </main>
     <script src="create.js"></script>
 </body>
