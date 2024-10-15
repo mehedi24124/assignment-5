@@ -56,7 +56,7 @@ donateButton.addEventListener('click', function (event) {
 
     // Ensure there are enough funds to donate
     if (donationAmountInt > currentTotalFunds) {
-        alert("Not enough funds available for this donation.");
+        alert(" Wrong input for donation");
         return;
     }
 
@@ -73,6 +73,7 @@ donateButton.addEventListener('click', function (event) {
 
 
 // // for button color change (it for the donation button)
+
 document.getElementById('colorButton1').addEventListener('click', function() {
     this.classList.remove('btn-warning');
     this.classList.add('bg-red-500');
