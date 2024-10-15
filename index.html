@@ -10,21 +10,21 @@
 
 </head>
 <body>
-    <main>
-        <section class="">
+    <main class="sticky top-0 z-10  bg-stone-50">
+        <section>
         <!-- navbar  -->
-         <div class="bg-slate-200 h-28 flex">
+         <div class="bg-slate-200 h-28 flex ">
             <div class="navbar justify-around">
                 <div class="">
-                    <button class="btn btn-warning text-2xl  px-7"><a href="blog.html">Blog</a></button>
+                    <button class="btn btn-warning lg:text-2xl  px-7"><a href="blog.html">Blog</a></button>
                 </div>
                 <div class="gap-3">
                     <img src="assets/logo.png" alt="">
-                  <h4 class="text-2xl">Donate Bangladesh</h4>
+                  <h4 class="lg:text-2xl">Donate Bangladesh</h4>
                 </div>
                 <div class="gap-2">
                     <img src="assets/coin.png" alt="">
-                  <p id="total-funds" class="text-2xl">5500 BDT</p>
+                  <p id="total-funds" class="lg:text-2xl">5500 BDT</p>
                 </div>
               </div>
          </div>
@@ -128,9 +128,10 @@
     </main>
     <main>
       <section  id="info2" style="display:none;">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsum delectus? Eveniet quas inventore amet tempore pariatur hic aperiam beatae consectetur impedit sequi iusto modi perspiciatis autem nesciunt, quidem, quibusdam optio delectus sit laboriosam adipisci animi quo ut veniam obcaecati! Non quis magnam commodi minus rerum officiis dolores, quos qui.
-       </div>
+        <div id="info2"  border: 1px solid #ccc; padding: 10px;">
+          <h3>Donation History</h3>
+          <ul id="history-list"></ul>
+      </div>
       </section>
     </main>
     <script src="create.js"></script>

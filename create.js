@@ -141,32 +141,3 @@ donateButton3.addEventListener('click', function (event) {
     donationInput3.value = '';
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
