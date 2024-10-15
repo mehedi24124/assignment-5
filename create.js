@@ -141,3 +141,13 @@ donateButton3.addEventListener('click', function (event) {
     donationInput3.value = '';
 });
 
+
+// // for button color change (it for the donation button)
+document.getElementById('colorButton1').addEventListener('click', function() {
+    this.classList.remove('btn-warning');
+    this.classList.add('bg-red-500');
+});
+document.getElementById('colorButton2').addEventListener('click', function() {
+    this.classList.remove('btn-warning');
+    this.classList.add('bg-red-500');
+});
